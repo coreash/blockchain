@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/coreash/blockchain",
   "author": "coreash",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npx tsc"
+  }
 }
